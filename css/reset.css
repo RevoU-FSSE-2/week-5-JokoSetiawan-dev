@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "poppins";
+    src: url(/fonts/Poppins-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "poppins", sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+ h1, h2, h3 {
+    font-size: 1.5em;
+ }
+
+ p, a {
+    font-size: 0.9em;
+ }
+
+a,
+img,
+span,
+button {
+    display: block;
+    text-decoration: none;
+}
+
+img {
+    height: auto;
+}

@@ -1,0 +1,61 @@
+nav {
+    display: flex;
+    background-color: #EDF1D9;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.nav-list {
+    display: none;
+}
+
+.hamburger-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.hamburger-menu span {
+    display: block;
+    background-color: black;
+    width: 25px;
+    height: 4px;
+    border-radius: 1rem;
+}
+
+/*Banner*/
+
+.banner {
+    background-color: #EDF1D9;
+}
+
+.banner-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-container picture img {
+    width: 300px;
+}
+
+.text-container {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.text-container h1 {
+    padding-bottom: 25px;
+}
+
