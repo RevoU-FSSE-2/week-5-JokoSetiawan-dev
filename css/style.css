@@ -1,61 +1,150 @@
 nav {
-    display: flex;
-    background-color: #EDF1D9;
-    width: 100%;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 20px;
+  display: flex;
+  background-color: #071952;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  border: 0;
 }
 
 .logo {
-    width: 100px;
+  width: 100px;
 }
 
 .nav-list {
-    display: none;
+  display: none;
 }
 
 .hamburger-menu {
-    display: flex;
-    flex-direction: column;
-    gap: 3px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
 }
 
 .hamburger-menu span {
-    display: block;
-    background-color: black;
-    width: 25px;
-    height: 4px;
-    border-radius: 1rem;
+  display: block;
+  background-color: white;
+  width: 25px;
+  height: 4px;
+  border-radius: 1rem;
 }
 
 /*Banner*/
 
 .banner {
-    background-color: #EDF1D9;
+  background-color: #071952;
 }
 
 .banner-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .banner-container picture img {
-    width: 300px;
+  width: 300px;
 }
 
 .text-container {
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 50px;
+  display: flex;
+  color: white;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
 }
 
 .text-container h1 {
-    padding-bottom: 25px;
+  padding-bottom: 25px;
 }
 
+/*About Us*/
+
+.about-us {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+/*Our Culture*/
+
+.our-culture {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  padding: 50px 20px;
+}
+
+.culture-img {
+  width: 100%;
+}
+.culture {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 15px;
+}
+
+.culture-container {
+  background-color: white;
+  box-shadow: 3px 9px 10px -1px rgba(0, 0, 0, 0.31);
+  height: 450px;
+}
+
+/*Vision and Mission*/
+
+.vision-mission {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 25px;
+  padding: 50px 20px;
+}
+
+.vm-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  text-align: justify;
+}
+
+.vision-mission div img {
+  width: 100%;
+}
+
+/*Footer*/
+
+footer {
+  background-color: #35a29f;
+  padding: 25px 20px;
+}
+
+footer div img {
+  width: 100px;
+}
+
+.footer-menu {
+  display: flex;
+  padding-top: 15px;
+  color: white;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer-menu div a {
+  color: white;
+}
+
+.footer-menu div p {
+  color: white;
+  font-weight: 600;
+}
