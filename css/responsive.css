@@ -1,5 +1,9 @@
-@media only screen and (min-width: 768px) {
-    .hamburger-menu {
-        display: none;
+@media only screen and (min-width: 1024px) {
+    .nav-list {
+        display: block;
     }
+}
+
+body {
+    background: red;
 }
