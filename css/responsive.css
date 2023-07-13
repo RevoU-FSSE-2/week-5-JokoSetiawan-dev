@@ -1,4 +1,172 @@
 @media only screen and (min-width: 768px) {
-    
+  /*Navbar*/
+
+  nav {
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .hamburger-menu {
+    display: none;
+  }
+
+  .nav-link {
+    margin: 0;
+  }
+
+  .nav-list {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    flex-direction: row;
+    align-items: center;
+    position: unset;
+
+  }
+
+  .nav-list li a {
+    color: white;
+    position: relative;
+  }
+
+  .nav-list li a::after {
+    content: "";
+    position: absolute;
+    background-color: white;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -5px;
+    border-radius: 1rem;
+    transition: 0.3s;
+  }
+
+  .nav-list li a:hover:after {
+    width: 100%;
+  }
+
+  /*Banner*/
+
+  .banner-container {
+    flex-direction: row-reverse;
+    height: 450px;
+    justify-content: space-around;
+    padding: 0px 30px;
+  }
+
+  .text-container {
+    padding: 0;
+    text-align: left;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 40%;
+    gap: 10px;
+  }
+
+  /*About Us*/
+
+  .about-us {
+    padding: 50px;
+  }
+
+  /*Our Culture*/
+
+  .culture {
+    padding: 30px;
+  }
+
+  .our-culture {
+    padding: 50px;
+    gap: 40px;
+  }
+
+  .culture-container {
+    height: 600px;
+  }
+
+  /*Vision and Mission*/
+  .vision-mission {
+    padding: 50px 50px 20px 50px;
+  }
+
+  .vm-object img {
+    padding: 0px 50px 50px;
+  }
+
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .footer-menu {
+    width: 50%;
+  }
 }
 
+@media only screen and (min-width: 1024px) {
+  .about-us {
+    padding: 50px 80px;
+  }
+
+  .our-culture {
+    flex-direction: row;
+  }
+
+  .culture {
+    padding: 10px;
+  }
+
+  .culture-container {
+    height: 500px;
+  }
+
+  .vision-mission {
+    flex-direction: row;
+    gap: 100px;
+    align-items: flex-start;
+  }
+
+  .vm-container p {
+    width: 400px;
+  }
+
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .footer-menu {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .about-us,
+  .our-culture,
+  .vision-mission {
+    padding: 70px 208px;
+  }
+
+  .nav-list {
+    width: 30%;
+  }
+
+  .banner-container {
+    justify-content: space-around;
+    padding: 0px 100px;
+  }
+
+  .vision-mission {
+    gap: 230px;
+  }
+
+  .vm-object img {
+    padding: 0px 208px 50px 208px;
+  }
+
+  footer {
+    padding: 30px 208px;
+  }
+}

@@ -36,6 +36,7 @@ span,
 button {
     display: block;
     text-decoration: none;
+    color: white;
 }
 
 img {
